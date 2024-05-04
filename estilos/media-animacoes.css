@@ -1,0 +1,29 @@
+@media(max-width: 796px){
+    .barra__pesquisa{
+        display: none;
+    }
+    .menu__lateral{
+        display: none;
+    }
+    .lista__videos{
+        display: grid;
+        grid-template-columns: repeat(1, 326px);
+        gap: 16px;
+    }
+}
+/* Animações  */
+@keyframes arco-iris{
+    /* 0%{
+        background-color: var(--cinza-fundos);
+    }
+    100%{
+        background-color: var(--cinza-claro);
+    } */
+    0%{background-color: rgb(141, 26, 26);}
+    25%{background-color: rgb(153, 153, 19);}
+    33%{background-color: rgb(151, 106, 8);}
+    50%{background-color: rgb(30, 112, 30);}
+    66%{background-color: rgb(19, 144, 153);}
+    75%{background-color: rgb(0, 0, 177);}
+    100%{background-color: rgb(151, 62, 151);}
+}

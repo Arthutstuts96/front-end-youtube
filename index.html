@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- RESET CSS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" 
+    integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- FONT AWESOME  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ESTILOS CSS  -->
+    <link rel="stylesheet" href="./estilos/styles.css">
+    <link rel="icon" href="./imagens/youtube-icone.png">
+    <link rel="stylesheet" href="./estilos/variaveis-hover.css">
+    <link rel="stylesheet" href="./estilos/media-animacoes.css">
+    <title>Youtube Recriado</title>
+</head>
+<body>
+    <header class="menu__superior">
+        <div class="logo__barras">
+            <i class="fa-solid fa-bars" id="barras-fechar-lateral"></i>
+            <a href="" class="youtube__logo">
+                <i class="fa-brands fa-youtube"></i>Youtube<sup>BR</sup>
+            </a>
+        </div>
+        <div class="barra__pesquisa">
+            <div class="caixa__pesquisa">
+                <input type="text" placeholder="Pesquisar" class="input__pesquisa">
+                <!-- <i class="fa-solid fa-keyboard"></i> -->
+                <span class="lupa__pesquisa"><i class="fa-solid fa-magnifying-glass" id="lupa__pesquisa"></i></span>
+            </div>
+                <span class="microfone__pesquisa"><i class="fa-solid fa-microphone"></i></span>
+            </div>
+        </div>
+        <div class="perfil__afins">
+            <i class="fa-solid fa-upload"></i>
+            <i class="fa-solid fa-bell" id="botao-notificacao"></i>
+            <img src="./imagens/foto-de-perfil.jpg" alt="Foto de perfil" class="foto__perfil">
+        </div>
+    </header>
+    <main class="conteudo__principal">
+        <aside class="menu__lateral">
+            <section class="inicio">
+                <ul class="lista__itens">
+                    <li class="item item__inicio"><i class="fa-solid fa-house"></i>Início</li>
+                    <li class="item item__inicio"><i class="fa-solid fa-play"></i>Shorts</li>
+                    <li class="item item__inicio"><i class="fa-solid fa-display"></i>Inscrições</li>
+                </ul>
+                <hr>
+            </section>
+            <section class="voce">
+                <p class="item titulo__secao">Você <i class="fa-solid fa-angle-right" style="transform: scale(0.75)"></i></p>
+                <ul class="lista__itens">
+                    <li class="item item__voce"><i class="fa-solid fa-user"></i>Seu canal</li>
+                    <li class="item item__voce"><i class="fa-solid fa-clock-rotate-left"></i>Histórico</li>
+                    <li class="item item__voce"><i class="fa-solid fa-chart-bar"></i>Playlists</li>
+                    <li class="item item__voce"><i class="fa-regular fa-circle-play"></i>Seus vídeos</li>
+                    <li class="item item__voce"><i class="fa-regular fa-clock"></i>Assistir mais tarde</li>
+                    <li class="item item__voce"><i class="fa-solid fa-thumbs-up"></i>Vídeos com "gostei"</li>
+                </ul>
+                <hr>
+            </section>
+            <section class="inscricoes">
+                <p class="titulo__secao">Inscrições</p>
+                <ul class="lista__itens">
+                    <li class="item item__inscricoes"><img src="./imagens/perfil1.jpg" alt="Imagem do primeiro perfil" class="foto__perfil"><span class="nome__canal">Cine_Castigo</span></li>
+                    <li class="item item__inscricoes"><img src="./imagens/perfil2.jpg" alt="Imagem do segundo perfil" class="foto__perfil"><span class="nome__canal">Canal do Joca</span></li>
+                    <li class="item item__inscricoes"><img src="./imagens/perfil3.jpg" alt="Imagem do terceiro perfil" class="foto__perfil"><span class="nome__canal">Breno gameplays</span></li>
+                </ul>
+                <hr>
+            </section>
+            <section class="explorar">
+                <p class="titulo__secao">Explorar</p>
+                <ul class="lista__itens">
+                    <li class="item item__explorar"><i class="fa-solid fa-fire"></i>Em alta</li>
+                    <li class="item item__explorar"><i class="fa-solid fa-bag-shopping"></i>Shopping</li>
+                    <li class="item item__explorar"><i class="fa-solid fa-music"></i>Música</li>
+                    <li class="item item__explorar"><i class="fa-solid fa-clapperboard"></i>Filmes</li>
+                    <li class="item item__explorar"><i class="fa-solid fa-satellite-dish"></i>Ao vivo</li>
+                    <li class="item item__explorar"><i class="fa-solid fa-gamepad"></i>Jogos</li>
+                    <li class="item item__explorar"><i class="fa-solid fa-tower-broadcast"></i>Podcasts</li>
+                </ul>
+                <hr>
+            </section>
+            <section class="ajuda__sobre">
+                <ul class="lista__sobre">
+                    <li><a href="#" class="links">Sobre</a></li>
+                    <li><a href="#" class="links">Direitos Autorais</a></li>
+                    <li><a href="#" class="links">Termos</a></li>
+                    <li><a href="#" class="links">Entre em contato</a></li>
+                    <li><a href="#" class="links">Publicidade</a></li>
+                    <li><a href="#" class="links">Política de segurança</a></li>
+                </ul>
+                <p class="copyright">₢ 2024 Googlo LLC</p>
+            </section>
+        </aside>
+        <div class="conteudo__e__filtros">
+            <section class="filtros__navegacao">
+                <ul class="lista__filtros">
+                    <li class="item__filtro">Tudo</li>
+                    <li class="item__filtro">Jogos</li>
+                    <li class="item__filtro">Música</li>
+                    <li class="item__filtro">Lista de reprodução</li>
+                    <li class="item__filtro">Enviados recentemente</li>
+                    <li class="item__filtro">Assistidos</li>
+                    <li class="item__filtro">História</li>
+                    <li class="item__filtro">Música de jogos eletrônicos</li>
+                    <li class="item__filtro">Cálculo</li>
+                    <li class="item__filtro">Speedrun</li>
+                    <li class="item__filtro">Design de jogos</li>
+                    <li class="item__filtro">Funções matemáticas</li>
+
+                    <li class="item__filtro">Novidades para você</li>
+                </ul>
+            </section>
+            <section class="conteudo__videos">
+                <ul class="lista__videos">
+                    <li class="item__video">
+                        <iframe width="336" height="189" src="https://www.youtube.com/embed/DzGaTW_9bnM?si=fBFu4DLjA0alYu0t" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="descricao__video">
+                            <img src="./imagens/perfil1.jpg" alt="Logo do canal" class="logo__canal">
+                            <div class="descricao__video-texto">
+                                <p class="nome__video">Review comentada: Ben 10 e Mutante Rex: Heróis Unidos</p>
+                                <p class="descricao-menor nome__canal">Cine_Castigo</p>
+                                <p class="descricao-menor visualizacoes__video">50 mil visualizações · Há 3 dias</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item__video">
+                        <iframe width="336" height="189" src="https://www.youtube.com/embed/RkP0FXI0v4A?si=2noeQNlB6P7jKQVO" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="descricao__video">
+                            <img src="./imagens/perfil1.jpg" alt="Logo do canal" class="logo__canal">
+                            <div class="descricao__video-texto">
+                                <p class="nome__video">A busca implacável por um bom primeiro vídeo</p>
+                                <p class="descricao-menor nome__canal">Cine_Castigo</p>
+                                <p class="descricao-menor visualizacoes__video">3 mil visualizações · Há 10 dias</p>
+                            </div>
+                        </div>
+                    </li>         
+                    <li class="item__video">
+                        <iframe width="336" height="189" src="https://www.youtube.com/embed/HzSlctcgHz8?si=23lMu7mLydXl5n1n" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="descricao__video">
+                            <img src="./imagens/perfil3.jpg" alt="Logo do canal" class="logo__canal">
+                            <div class="descricao__video-texto">
+                                <p class="nome__video">Lucas fazendo barial - front side</p>
+                                <p class="descricao-menor nome__canal">Breno gameplays</p>
+                                <p class="descricao-menor visualizacoes__video">3 visualizações · Há 7 anos</p>
+                            </div>
+                        </div>
+                    </li>                  
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <section class="caixa__notificacoes esconder">
+        <div class="mensagem__configuracoes">
+            <span>Notificações</span>
+            <i class="fa-solid fa-gear"></i>
+        </div>
+        <hr>
+        <div class="notificacoes">
+            <i class="fa-solid fa-bell"></i>
+            <div class="texto__notificacoes">
+                <p class="texto-maior">Suas notificações são exibidas aqui</p>
+                <p class="texto-menor">Inscreva-se nos seus canais favoritos para receber notificações sobre os vídeos mais recentes desses canais.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="./app/abrir-fechar.js"></script>
+    <script src="./app/pesquisar-video.js"></script>
+</body>
+</html>

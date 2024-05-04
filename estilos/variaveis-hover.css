@@ -1,0 +1,26 @@
+:root{
+    --branco-escuro: #d6d6d6;
+    --cinza-fundos: #313131;
+    --cinza-claro: #6e6e6e;
+    --cinza-escuro-background: #0f0f0f;
+}
+/* hover  */
+.menu__superior i,.foto__perfil:hover{
+    cursor: pointer;
+}
+.item:hover{
+    cursor: pointer;
+    background-color: var(--cinza-fundos);
+    border-radius: 12px;
+}
+.links:hover{
+    text-decoration: underline;
+}
+.item__filtro:hover{
+    cursor: pointer;
+    animation-name: arco-iris;
+    animation-duration: 1.33s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: #fff;
+}
